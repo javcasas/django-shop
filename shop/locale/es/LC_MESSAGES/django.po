@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: django-shop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-30 00:52+0200\n"
-"PO-Revision-Date: 2011-07-13 16:16+0000\n"
-"Last-Translator: chrisglass <tribaal@gmail.com>\n"
+"PO-Revision-Date: 2016-06-05 13:04-0500\n"
+"Last-Translator: Javier Casas <javcasas@dssti.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: admin/customer.py:41
 msgid "Customer State"
@@ -298,15 +299,17 @@ msgstr "Pedidos"
 #: templates/shop/auth/login-reset.html:26 templates/shop/auth/login.html:8
 #: templates/shop/auth/reset.html:8
 msgid "Your e-mail address"
-msgstr ""
+msgstr "Su dirección de correo electrónico"
 
 #: forms/auth.py:22
 msgid "Preset password"
-msgstr ""
+msgstr "Generar contraseña"
 
 #: forms/auth.py:24
 msgid "Send a randomly generated password to your e-mail address."
 msgstr ""
+"Enviar una contraseña generada automáticamente a su dirección de correo "
+"electrónico."
 
 #: forms/auth.py:26
 msgid "Choose a password"
@@ -318,7 +321,7 @@ msgstr "Longitud mínima de 6 carácteres"
 
 #: forms/auth.py:28
 msgid "Repeat password"
-msgstr ""
+msgstr "Repetir contraseña"
 
 #: forms/auth.py:29
 #, fuzzy
@@ -378,7 +381,10 @@ msgstr "Eliminar clientes con sesiones expiradas"
 
 #: management/commands/shop_customers.py:35
 #, python-brace-format
-msgid "Customers in this shop: total={total}, anonymous={anonymous}, expired={expired}, active={active}, guests={guests}, registered={registered}, staff={staff}."
+msgid ""
+"Customers in this shop: total={total}, anonymous={anonymous}, "
+"expired={expired}, active={active}, guests={guests}, "
+"registered={registered}, staff={staff}."
 msgstr ""
 
 #: models/address.py:18
@@ -399,7 +405,7 @@ msgstr "Direcciones"
 
 #: models/address.py:42
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afganistán"
 
 #: models/address.py:43
 msgid "Aland Islands"
@@ -407,11 +413,11 @@ msgstr ""
 
 #: models/address.py:44
 msgid "Albania"
-msgstr ""
+msgstr "Albania"
 
 #: models/address.py:45
 msgid "Algeria"
-msgstr ""
+msgstr "Argelia"
 
 #: models/address.py:46
 msgid "American Samoa"
@@ -419,7 +425,7 @@ msgstr ""
 
 #: models/address.py:47
 msgid "Andorra"
-msgstr ""
+msgstr "Andorra"
 
 #: models/address.py:48
 msgid "Angola"
@@ -431,15 +437,15 @@ msgstr ""
 
 #: models/address.py:50
 msgid "Antarctica"
-msgstr ""
+msgstr "Antártida"
 
 #: models/address.py:51
 msgid "Antigua And Barbuda"
-msgstr ""
+msgstr "Antigua y Barbuda"
 
 #: models/address.py:52
 msgid "Argentina"
-msgstr ""
+msgstr "Argentina"
 
 #: models/address.py:53
 msgid "Armenia"
@@ -483,7 +489,7 @@ msgstr ""
 
 #: models/address.py:63
 msgid "Belgium"
-msgstr ""
+msgstr "Bélgica"
 
 #: models/address.py:64
 msgid "Belize"
@@ -523,7 +529,7 @@ msgstr ""
 
 #: models/address.py:73
 msgid "Brazil"
-msgstr ""
+msgstr "Brasil"
 
 #: models/address.py:74
 msgid "British Indian Ocean Territory"
@@ -551,11 +557,11 @@ msgstr ""
 
 #: models/address.py:80
 msgid "Cameroon"
-msgstr ""
+msgstr "Camerún"
 
 #: models/address.py:81
 msgid "Canada"
-msgstr ""
+msgstr "Canadá"
 
 #: models/address.py:82
 msgid "Cape Verde"
@@ -575,11 +581,11 @@ msgstr ""
 
 #: models/address.py:86
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: models/address.py:87
 msgid "China"
-msgstr ""
+msgstr "China"
 
 #: models/address.py:88
 msgid "Christmas Island"
@@ -591,7 +597,7 @@ msgstr ""
 
 #: models/address.py:90
 msgid "Colombia"
-msgstr ""
+msgstr "Colombia"
 
 #: models/address.py:91
 msgid "Comoros"
@@ -611,15 +617,15 @@ msgstr ""
 
 #: models/address.py:95
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 #: models/address.py:96
 msgid "Croatia"
-msgstr ""
+msgstr "Croacia"
 
 #: models/address.py:97
 msgid "Cuba"
-msgstr ""
+msgstr "Cuba"
 
 #: models/address.py:98
 msgid "Curacao"
@@ -627,7 +633,7 @@ msgstr ""
 
 #: models/address.py:99
 msgid "Cyprus"
-msgstr ""
+msgstr "Chipre"
 
 #: models/address.py:100
 msgid "Czech Republic"
@@ -635,7 +641,7 @@ msgstr ""
 
 #: models/address.py:101
 msgid "Denmark"
-msgstr ""
+msgstr "Dinamarca"
 
 #: models/address.py:102
 msgid "Djibouti"
@@ -655,7 +661,7 @@ msgstr ""
 
 #: models/address.py:106
 msgid "Egypt"
-msgstr ""
+msgstr "Egipto"
 
 #: models/address.py:107
 msgid "El Salvador"
@@ -691,12 +697,11 @@ msgstr ""
 
 #: models/address.py:115
 msgid "Finland"
-msgstr ""
+msgstr "Finlandia"
 
 #: models/address.py:116
-#, fuzzy
 msgid "France"
-msgstr "Cancelado"
+msgstr "Francia"
 
 #: models/address.py:117
 msgid "French Guiana"
@@ -720,7 +725,7 @@ msgstr ""
 
 #: models/address.py:122
 msgid "Germany"
-msgstr ""
+msgstr "Alemania"
 
 #: models/address.py:123
 msgid "Ghana"
@@ -732,7 +737,7 @@ msgstr ""
 
 #: models/address.py:125
 msgid "Greece"
-msgstr ""
+msgstr "Grecia"
 
 #: models/address.py:126
 msgid "Greenland"
@@ -752,7 +757,7 @@ msgstr ""
 
 #: models/address.py:130
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 #: models/address.py:131
 msgid "Guernsey"
@@ -784,7 +789,7 @@ msgstr ""
 
 #: models/address.py:138
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 #: models/address.py:139
 msgid "Hong Kong"
@@ -796,7 +801,7 @@ msgstr ""
 
 #: models/address.py:141
 msgid "Iceland"
-msgstr ""
+msgstr "Islandia"
 
 #: models/address.py:142
 msgid "India"
@@ -816,11 +821,11 @@ msgstr ""
 
 #: models/address.py:146
 msgid "Ireland"
-msgstr ""
+msgstr "Irlanda"
 
 #: models/address.py:147
 msgid "Israel"
-msgstr ""
+msgstr "Israel"
 
 #: models/address.py:148
 msgid "Italy"
@@ -836,7 +841,7 @@ msgstr ""
 
 #: models/address.py:151
 msgid "Japan"
-msgstr ""
+msgstr "Japón"
 
 #: models/address.py:152
 msgid "Jersey"
@@ -888,7 +893,7 @@ msgstr ""
 
 #: models/address.py:164
 msgid "Lebanon"
-msgstr ""
+msgstr "Líbano"
 
 #: models/address.py:165
 msgid "Lesotho"
@@ -912,7 +917,7 @@ msgstr ""
 
 #: models/address.py:170
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxemburgo"
 
 #: models/address.py:171
 msgid "Macao"
@@ -920,11 +925,11 @@ msgstr ""
 
 #: models/address.py:172
 msgid "Macedonia"
-msgstr ""
+msgstr "Macedonia"
 
 #: models/address.py:173
 msgid "Madagascar"
-msgstr ""
+msgstr "Madagascar"
 
 #: models/address.py:174
 msgid "Malawi"
@@ -996,7 +1001,7 @@ msgstr ""
 
 #: models/address.py:191
 msgid "Morocco"
-msgstr ""
+msgstr "Marruecos"
 
 #: models/address.py:192
 msgid "Mozambique"
@@ -1080,7 +1085,7 @@ msgstr ""
 
 #: models/address.py:212
 msgid "Panama"
-msgstr ""
+msgstr "Panamá"
 
 #: models/address.py:213
 msgid "Papua New Guinea"
@@ -1088,16 +1093,15 @@ msgstr ""
 
 #: models/address.py:214
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguay"
 
 #: models/address.py:215
 msgid "Peru"
-msgstr ""
+msgstr "Perú"
 
 #: models/address.py:216
-#, fuzzy
 msgid "Philippines"
-msgstr "Dirección de envío"
+msgstr "Filipinas"
 
 #: models/address.py:217
 msgid "Pitcairn"
@@ -1133,7 +1137,7 @@ msgstr ""
 
 #: models/address.py:225
 msgid "Rwanda"
-msgstr ""
+msgstr "Ruanda"
 
 #: models/address.py:226
 msgid "Saint Barthelemy"
@@ -1185,7 +1189,7 @@ msgstr ""
 
 #: models/address.py:238
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 #: models/address.py:239
 msgid "Seychelles"
@@ -1197,7 +1201,7 @@ msgstr ""
 
 #: models/address.py:241
 msgid "Singapore"
-msgstr ""
+msgstr "Singapur"
 
 #: models/address.py:242
 msgid "Sint Maarten (Dutch Part)"
@@ -1217,7 +1221,7 @@ msgstr ""
 
 #: models/address.py:246
 msgid "Somalia"
-msgstr ""
+msgstr "Somalia"
 
 #: models/address.py:247
 msgid "South Africa"
@@ -1229,7 +1233,7 @@ msgstr ""
 
 #: models/address.py:249
 msgid "Spain"
-msgstr ""
+msgstr "España"
 
 #: models/address.py:250
 msgid "Sri Lanka"
@@ -1336,9 +1340,8 @@ msgid "United Kingdom"
 msgstr ""
 
 #: models/address.py:276
-#, fuzzy
 msgid "United States"
-msgstr "Actualizado"
+msgstr "Estados Unidos"
 
 #: models/address.py:277
 msgid "United States Minor Outlying Islands"
@@ -1430,11 +1433,11 @@ msgstr "Vaciar Carro de la Compra"
 
 #: models/customer.py:102
 msgid "Mrs."
-msgstr ""
+msgstr "Sra."
 
 #: models/customer.py:102
 msgid "Mr."
-msgstr ""
+msgstr "Sr."
 
 #: models/customer.py:102
 msgid "(n/a)"
@@ -1446,11 +1449,11 @@ msgstr ""
 
 #: models/customer.py:106
 msgid "Guest"
-msgstr ""
+msgstr "Invitado"
 
 #: models/customer.py:106
 msgid "Registered"
-msgstr ""
+msgstr "Registrado"
 
 #: models/customer.py:109
 msgid "Recognized"
@@ -1475,7 +1478,7 @@ msgstr ""
 
 #: models/defaults/address.py:14
 msgid "Street"
-msgstr ""
+msgstr "Calle"
 
 #: models/defaults/address.py:15
 msgid "ZIP"
@@ -1483,7 +1486,7 @@ msgstr ""
 
 #: models/defaults/address.py:16
 msgid "Location"
-msgstr ""
+msgstr "Lugar"
 
 #: models/defaults/address.py:17
 msgid "Country"
@@ -1565,7 +1568,8 @@ msgstr ""
 
 #: models/order.py:119 templates/shop/cart/editable.html:37
 #: templates/shop/cart/static.html:41 templates/shop/cart/summary.html:6
-#: templates/shop/email/order.html:41 templates/shop/order/order-detail.html:48
+#: templates/shop/email/order.html:41
+#: templates/shop/order/order-detail.html:48
 #: templates/shop/print/order.html:44
 #: templates/shop/products/catalog-product-add2cart.html:14
 #, fuzzy
@@ -1575,12 +1579,12 @@ msgstr "Subtotal del carro"
 #: models/order.py:120 templates/shop/cart/editable.html:19
 #: templates/shop/cart/editable.html:49 templates/shop/cart/static.html:11
 #: templates/shop/cart/static.html.py:56 templates/shop/cart/summary.html:16
-#: templates/shop/email/order.html:51 templates/shop/order/order-detail.html:18
-#: templates/shop/order/order-detail.html:62 templates/shop/print/order.html:12
-#: templates/shop/print/order.html.py:58
-#, fuzzy
+#: templates/shop/email/order.html:51
+#: templates/shop/order/order-detail.html:18
+#: templates/shop/order/order-detail.html:62
+#: templates/shop/print/order.html:12 templates/shop/print/order.html.py:58
 msgid "Total"
-msgstr "Total de línea"
+msgstr "Total"
 
 #: models/order.py:123
 #, fuzzy
@@ -1611,9 +1615,8 @@ msgid "State"
 msgstr "Provincia"
 
 #: models/order.py:228
-#, fuzzy
 msgid "Amount paid"
-msgstr "Cantidad"
+msgstr "Cantidad pagada"
 
 #: models/order.py:229
 msgid "How much was paid with this particular transfer."
@@ -1748,11 +1751,11 @@ msgstr ""
 
 #: modifiers/taxes.py:24
 msgid "+ {}% V.A.T"
-msgstr ""
+msgstr "+ {}% I.V.A."
 
 #: modifiers/taxes.py:44
 msgid "{}% V.A.T incl."
-msgstr ""
+msgstr "{}% I.V.A. incl."
 
 #: money/iso4217.py:12
 msgid "Brazilian Real"
@@ -1768,7 +1771,7 @@ msgstr ""
 
 #: money/iso4217.py:15
 msgid "Euro"
-msgstr ""
+msgstr "Euro"
 
 #: money/iso4217.py:16
 msgid "Pound Sterling"
@@ -1792,7 +1795,7 @@ msgstr ""
 
 #: money/iso4217.py:21
 msgid "US Dollar"
-msgstr ""
+msgstr "Dólar de Estados Unidos"
 
 #: payment/defaults.py:30
 msgid "Awaiting a forward fund payment"
@@ -1829,18 +1832,17 @@ msgstr ""
 
 #: templates/shop/auth/change.html:4
 msgid "Change Password"
-msgstr ""
+msgstr "Cambiar Contraseña"
 
 #: templates/shop/auth/change.html:8 templates/shop/auth/change.html.py:11
 #: templates/shop/auth/password-reset-confirm.html:12
 msgid "New Password"
-msgstr ""
+msgstr "Nueva Contraseña"
 
 #: templates/shop/auth/change.html:14 templates/shop/auth/change.html.py:17
 #: templates/shop/auth/password-reset-confirm.html:18
-#, fuzzy
 msgid "Confirm Password"
-msgstr "Confirmado"
+msgstr "Confirmar Contraseña"
 
 #: templates/shop/auth/change.html:21
 msgid "Submit Changes"
@@ -1859,11 +1861,11 @@ msgstr ""
 #: templates/shop/auth/login-reset.html:17 templates/shop/auth/login.html:14
 #: templates/shop/auth/login.html.py:17
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 #: templates/shop/auth/login-reset.html:21 templates/shop/auth/login.html:21
 msgid "Login"
-msgstr ""
+msgstr "Entrar"
 
 #: templates/shop/auth/login-reset.html:22 templates/shop/auth/reset.html:4
 msgid "Password Forgotten?"
@@ -1880,7 +1882,7 @@ msgstr ""
 
 #: templates/shop/auth/logout.html:8
 msgid "Logout"
-msgstr ""
+msgstr "Salir"
 
 #: templates/shop/auth/password-reset-confirm.html:5
 #, python-format
@@ -1888,7 +1890,9 @@ msgid "New password for '%(user_name)s'"
 msgstr ""
 
 #: templates/shop/auth/password-reset-confirm.html:11
-msgid "Please enter your new password twice so we can verify you typed it in correctly."
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
 msgstr ""
 
 #: templates/shop/auth/password-reset-confirm.html:15
@@ -1896,9 +1900,8 @@ msgid "New password"
 msgstr ""
 
 #: templates/shop/auth/password-reset-confirm.html:21
-#, fuzzy
 msgid "Confirm password"
-msgstr "Confirmado"
+msgstr "Confirmar contraseña"
 
 #: templates/shop/auth/password-reset-confirm.html:25
 msgid "Change my password"
@@ -1909,7 +1912,9 @@ msgid "Password reset unsuccessful"
 msgstr ""
 
 #: templates/shop/auth/password-reset-decline.html:7
-msgid "The password reset link was invalid, possibly because it has already been used.  Please request a new password reset."
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
 msgstr ""
 
 #: templates/shop/auth/register-user.html:4
@@ -1922,7 +1927,8 @@ msgstr ""
 
 #: templates/shop/cart/editable.html:17 templates/shop/cart/static.html:9
 #: templates/shop/cart/watch.html:13 templates/shop/email/order.html:12
-#: templates/shop/order/order-detail.html:16 templates/shop/print/order.html:10
+#: templates/shop/order/order-detail.html:16
+#: templates/shop/print/order.html:10
 #: templates/shop/products/catalog-product-add2cart.html:14
 msgid "Quantity"
 msgstr "Cantidad"
@@ -1932,9 +1938,8 @@ msgstr "Cantidad"
 #: templates/shop/print/order.html:11
 #: templates/shop/products/catalog-product-add2cart.html:14
 #: templates/shop/search/results.html:10
-#, fuzzy
 msgid "Unit Price"
-msgstr "Precio unitario"
+msgstr "Precio Unitario"
 
 #: templates/shop/cart/editable.html:76 templates/shop/cart/watch.html:50
 msgid "Remove"
@@ -1964,19 +1969,24 @@ msgstr ""
 
 #: templates/shop/email/order.html:13
 msgid "Price"
-msgstr ""
+msgstr "Precio"
 
 #: templates/shop/email/register-user-body.txt:2
 #, python-format
 msgid ""
-"You are receiving this email because you asked for a auto-generated password for your\n"
+"You are receiving this email because you asked for a auto-generated password "
+"for your\n"
 "user account at %(site_name)s."
 msgstr ""
+"Usted ha recibido este correo electrónico porque ha pedido que se genere una "
+"nueva contraseña\n"
+"para su cuenta en %(site_name)s."
 
 #: templates/shop/email/register-user-body.txt:5
 #, python-format
 msgid ""
-"In the future, please use username %(email)s with password %(password)s to sign\n"
+"In the future, please use username %(email)s with password %(password)s to "
+"sign\n"
 "into %(absolute_base_uri)s."
 msgstr ""
 
@@ -1999,7 +2009,8 @@ msgstr ""
 #: templates/shop/email/reset-password-body.txt:2
 #, python-format
 msgid ""
-"You're receiving this email because you requested a password reset for your user\n"
+"You're receiving this email because you requested a password reset for your "
+"user\n"
 "account '%(user)s' at %(site_name)s."
 msgstr ""
 
@@ -2070,9 +2081,8 @@ msgid "Continue Shopping"
 msgstr ""
 
 #: templates/shop/products/catalog-product-add2cart.html:54
-#, fuzzy
 msgid "Cancel"
-msgstr "Cancelado"
+msgstr "Cancelar"
 
 #: templates/shop/products/search-product-body.html:5
 msgid "Art-No.:"
@@ -2103,7 +2113,7 @@ msgstr ""
 #: views/auth.py:78
 #, python-brace-format
 msgid "Instructions on how to reset the password have been sent to '{email}'."
-msgstr ""
+msgstr "Se ha enviado instrucciones para cambiar la contraseña a '{email}'."
 
 #: views/auth.py:125
 msgid "Password has been reset with the new password."
