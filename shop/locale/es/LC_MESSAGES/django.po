@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: django-shop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-30 00:52+0200\n"
-"PO-Revision-Date: 2016-06-05 13:04-0500\n"
+"PO-Revision-Date: 2016-06-05 13:45-0500\n"
 "Last-Translator: Javier Casas <javcasas@dssti.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -334,6 +334,8 @@ msgid ""
 "A customer with the e-mail address ‘{email}’ already exists.\n"
 "If you have used this address previously, try to reset the password."
 msgstr ""
+"Ya hay un cliente con la dirección de correo electrónico ‘{email}’.\n"
+"Si ha usado esta dirección anteriormente, intente reiniciar la contraseña."
 
 #: forms/auth.py:59
 msgid "Passwords do not match"
@@ -409,7 +411,7 @@ msgstr "Afganistán"
 
 #: models/address.py:43
 msgid "Aland Islands"
-msgstr ""
+msgstr "Islas de Åland"
 
 #: models/address.py:44
 msgid "Albania"
@@ -421,7 +423,7 @@ msgstr "Argelia"
 
 #: models/address.py:46
 msgid "American Samoa"
-msgstr ""
+msgstr "Samoa Americana"
 
 #: models/address.py:47
 msgid "Andorra"
@@ -429,11 +431,11 @@ msgstr "Andorra"
 
 #: models/address.py:48
 msgid "Angola"
-msgstr ""
+msgstr "Angola"
 
 #: models/address.py:49
 msgid "Anguilla"
-msgstr ""
+msgstr "Anguila"
 
 #: models/address.py:50
 msgid "Antarctica"
@@ -449,43 +451,43 @@ msgstr "Argentina"
 
 #: models/address.py:53
 msgid "Armenia"
-msgstr ""
+msgstr "Armenia"
 
 #: models/address.py:54
 msgid "Aruba"
-msgstr ""
+msgstr "Aruba"
 
 #: models/address.py:55
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 #: models/address.py:56
 msgid "Austria"
-msgstr ""
+msgstr "Austria"
 
 #: models/address.py:57
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaiyán"
 
 #: models/address.py:58
 msgid "Bahamas"
-msgstr ""
+msgstr "Bahamas"
 
 #: models/address.py:59
 msgid "Bahrain"
-msgstr ""
+msgstr "Baréin"
 
 #: models/address.py:60
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladés"
 
 #: models/address.py:61
 msgid "Barbados"
-msgstr ""
+msgstr "Barbados"
 
 #: models/address.py:62
 msgid "Belarus"
-msgstr ""
+msgstr "Bielorrusia"
 
 #: models/address.py:63
 msgid "Belgium"
@@ -493,39 +495,39 @@ msgstr "Bélgica"
 
 #: models/address.py:64
 msgid "Belize"
-msgstr ""
+msgstr "Belice"
 
 #: models/address.py:65
 msgid "Benin"
-msgstr ""
+msgstr "Benín"
 
 #: models/address.py:66
 msgid "Bermuda"
-msgstr ""
+msgstr "Bermudas"
 
 #: models/address.py:67
 msgid "Bhutan"
-msgstr ""
+msgstr "Bután"
 
 #: models/address.py:68
 msgid "Bolivia, Plurinational State Of"
-msgstr ""
+msgstr "Bolivia"
 
 #: models/address.py:69
 msgid "Bonaire, Saint Eustatius And Saba"
-msgstr ""
+msgstr "Bonaire"
 
 #: models/address.py:70
 msgid "Bosnia And Herzegovina"
-msgstr ""
+msgstr "Bosnia y Herzegovina"
 
 #: models/address.py:71
 msgid "Botswana"
-msgstr ""
+msgstr "Botsuana"
 
 #: models/address.py:72
 msgid "Bouvet Island"
-msgstr ""
+msgstr "Isla Bouvet"
 
 #: models/address.py:73
 msgid "Brazil"
@@ -533,27 +535,27 @@ msgstr "Brasil"
 
 #: models/address.py:74
 msgid "British Indian Ocean Territory"
-msgstr ""
+msgstr "Territorio Británico del Océano Índico"
 
 #: models/address.py:75
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Brunéi"
 
 #: models/address.py:76
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bulgaria"
 
 #: models/address.py:77
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
 
 #: models/address.py:78
 msgid "Burundi"
-msgstr ""
+msgstr "Burundi"
 
 #: models/address.py:79
 msgid "Cambodia"
-msgstr ""
+msgstr "Camboya"
 
 #: models/address.py:80
 msgid "Cameroon"
@@ -565,19 +567,19 @@ msgstr "Canadá"
 
 #: models/address.py:82
 msgid "Cape Verde"
-msgstr ""
+msgstr "Cabo Verde"
 
 #: models/address.py:83
 msgid "Cayman Islands"
-msgstr ""
+msgstr "Islas Caimán"
 
 #: models/address.py:84
 msgid "Central African Republic"
-msgstr ""
+msgstr "República Centroafricana"
 
 #: models/address.py:85
 msgid "Chad"
-msgstr ""
+msgstr "Chad"
 
 #: models/address.py:86
 msgid "Chile"
@@ -589,11 +591,11 @@ msgstr "China"
 
 #: models/address.py:88
 msgid "Christmas Island"
-msgstr ""
+msgstr "Isla de Navidad"
 
 #: models/address.py:89
 msgid "Cocos (Keeling) Islands"
-msgstr ""
+msgstr "Islas Cocos (Keeling)"
 
 #: models/address.py:90
 msgid "Colombia"
@@ -601,19 +603,19 @@ msgstr "Colombia"
 
 #: models/address.py:91
 msgid "Comoros"
-msgstr ""
+msgstr "Comoras"
 
 #: models/address.py:92
 msgid "Congo"
-msgstr ""
+msgstr "Congo"
 
 #: models/address.py:93
 msgid "Congo, The Democratic Republic Of The"
-msgstr ""
+msgstr "República Democrática del Congo"
 
 #: models/address.py:94
 msgid "Cook Islands"
-msgstr ""
+msgstr "Islas Cook"
 
 #: models/address.py:95
 msgid "Costa Rica"
@@ -629,7 +631,7 @@ msgstr "Cuba"
 
 #: models/address.py:98
 msgid "Curacao"
-msgstr ""
+msgstr "Curasao"
 
 #: models/address.py:99
 msgid "Cyprus"
@@ -637,7 +639,7 @@ msgstr "Chipre"
 
 #: models/address.py:100
 msgid "Czech Republic"
-msgstr ""
+msgstr "República Checa"
 
 #: models/address.py:101
 msgid "Denmark"
@@ -645,19 +647,19 @@ msgstr "Dinamarca"
 
 #: models/address.py:102
 msgid "Djibouti"
-msgstr ""
+msgstr "Yibuti"
 
 #: models/address.py:103
 msgid "Dominica"
-msgstr ""
+msgstr "Dominica"
 
 #: models/address.py:104
 msgid "Dominican Republic"
-msgstr ""
+msgstr "República Dominicana"
 
 #: models/address.py:105
 msgid "Ecuador"
-msgstr ""
+msgstr "Ecuador"
 
 #: models/address.py:106
 msgid "Egypt"
@@ -665,35 +667,35 @@ msgstr "Egipto"
 
 #: models/address.py:107
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: models/address.py:108
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Guinea Ecuatorial"
 
 #: models/address.py:109
 msgid "Eritrea"
-msgstr ""
+msgstr "Eritrea"
 
 #: models/address.py:110
 msgid "Estonia"
-msgstr ""
+msgstr "Estonia"
 
 #: models/address.py:111
 msgid "Ethiopia"
-msgstr ""
+msgstr "Etiopía"
 
 #: models/address.py:112
 msgid "Falkland Islands (Malvinas)"
-msgstr ""
+msgstr "Islas Malvinas"
 
 #: models/address.py:113
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Islas Feroe"
 
 #: models/address.py:114
 msgid "Fiji"
-msgstr ""
+msgstr "Fiyi"
 
 #: models/address.py:115
 msgid "Finland"
@@ -705,23 +707,23 @@ msgstr "Francia"
 
 #: models/address.py:117
 msgid "French Guiana"
-msgstr ""
+msgstr "Guayana Francesa"
 
 #: models/address.py:118
 msgid "French Polynesia"
-msgstr ""
+msgstr "Polinesia Francesa"
 
 #: models/address.py:119
 msgid "French Southern Territories"
-msgstr ""
+msgstr "Tierras Australes y Antárticas Francesas"
 
 #: models/address.py:120
 msgid "Gabon"
-msgstr ""
+msgstr "Gabón"
 
 #: models/address.py:121
 msgid "Gambia"
-msgstr ""
+msgstr "Gambia"
 
 #: models/address.py:122
 msgid "Germany"
@@ -729,11 +731,11 @@ msgstr "Alemania"
 
 #: models/address.py:123
 msgid "Ghana"
-msgstr ""
+msgstr "Ghana"
 
 #: models/address.py:124
 msgid "Gibraltar"
-msgstr ""
+msgstr "Gibraltar"
 
 #: models/address.py:125
 msgid "Greece"
@@ -741,19 +743,19 @@ msgstr "Grecia"
 
 #: models/address.py:126
 msgid "Greenland"
-msgstr ""
+msgstr "Groenlandia"
 
 #: models/address.py:127
 msgid "Grenada"
-msgstr ""
+msgstr "Granada"
 
 #: models/address.py:128
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Guadalupe"
 
 #: models/address.py:129
 msgid "Guam"
-msgstr ""
+msgstr "Guam"
 
 #: models/address.py:130
 msgid "Guatemala"
@@ -761,31 +763,31 @@ msgstr "Guatemala"
 
 #: models/address.py:131
 msgid "Guernsey"
-msgstr ""
+msgstr "Guernsey"
 
 #: models/address.py:132
 msgid "Guinea"
-msgstr ""
+msgstr "Guinea"
 
 #: models/address.py:133
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Guinea-Bisáu"
 
 #: models/address.py:134
 msgid "Guyana"
-msgstr ""
+msgstr "Guyana"
 
 #: models/address.py:135
 msgid "Haiti"
-msgstr ""
+msgstr "Haití"
 
 #: models/address.py:136
 msgid "Heard Island and McDonald Islands"
-msgstr ""
+msgstr "Islas Heard y McDonald"
 
 #: models/address.py:137
 msgid "Holy See (Vatican City State)"
-msgstr ""
+msgstr "Vaticano"
 
 #: models/address.py:138
 msgid "Honduras"
@@ -793,11 +795,11 @@ msgstr "Honduras"
 
 #: models/address.py:139
 msgid "Hong Kong"
-msgstr ""
+msgstr "Hong Kong"
 
 #: models/address.py:140
 msgid "Hungary"
-msgstr ""
+msgstr "Hungría"
 
 #: models/address.py:141
 msgid "Iceland"
@@ -805,19 +807,19 @@ msgstr "Islandia"
 
 #: models/address.py:142
 msgid "India"
-msgstr ""
+msgstr "India"
 
 #: models/address.py:143
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonesia"
 
 #: models/address.py:144
 msgid "Iran, Islamic Republic Of"
-msgstr ""
+msgstr "Irán"
 
 #: models/address.py:145
 msgid "Iraq"
-msgstr ""
+msgstr "Irak"
 
 #: models/address.py:146
 msgid "Ireland"
@@ -829,15 +831,15 @@ msgstr "Israel"
 
 #: models/address.py:148
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 #: models/address.py:149
 msgid "Ivory Coast"
-msgstr ""
+msgstr "Costa de Marfil"
 
 #: models/address.py:150
 msgid "Jamaica"
-msgstr ""
+msgstr "Jamaica"
 
 #: models/address.py:151
 msgid "Japan"
